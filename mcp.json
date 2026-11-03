@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "firemark": {
+      "type": "http",
+      "url": "https://app.tryfiremark.com/mcp"
+    }
+  }
+}
