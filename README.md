@@ -4,7 +4,7 @@
 
 **Firemark is an AI visibility tracker.** It asks a fixed set of buyer questions to ChatGPT, Perplexity, Gemini, Google AI Overviews and Google AI Mode on a schedule, and shows which brands each answer names and which sites it cites.
 
-This repository connects Firemark to Cursor, Claude, ChatGPT and other MCP clients. Your assistant can then read your results, find where competitors are named and you are not, and draft prompt and competitor changes for you to confirm.
+This repository connects Firemark to Cursor, Claude, Claude Code, ChatGPT, Gemini CLI, Codex, VS Code, Windsurf, Cline, Zed and other MCP clients. It is a Cursor plugin, a Claude Code plugin marketplace and a Gemini CLI extension in one. Your assistant can then read your results, find where competitors are named and you are not, and draft prompt and competitor changes for you to confirm.
 
 ```
 https://app.tryfiremark.com/mcp
@@ -51,6 +51,14 @@ On Team and Enterprise plans, an owner adds the connector first under Organizati
 
 ### Claude Code
 
+Install the Firemark plugin from this repository:
+
+```
+/plugin install firemark --marketplace Firemark-ai/firemark-mcp
+```
+
+On Claude Code versions without that form, run `/plugin marketplace add Firemark-ai/firemark-mcp`, then `/plugin install firemark@firemark`. Or add the server alone:
+
 ```sh
 claude mcp add --transport http firemark https://app.tryfiremark.com/mcp
 ```
@@ -74,6 +82,71 @@ Add to `.vscode/mcp.json`, then start the server from the file and sign in:
   "servers": {
     "firemark": {
       "type": "http",
+      "url": "https://app.tryfiremark.com/mcp"
+    }
+  }
+}
+```
+
+### Gemini CLI
+
+```sh
+gemini extensions install https://github.com/Firemark-ai/firemark-mcp
+```
+
+Then start Gemini CLI and run `/mcp auth firemark` to sign in.
+
+### OpenAI Codex CLI
+
+```sh
+codex mcp add firemark --url https://app.tryfiremark.com/mcp
+codex mcp login firemark
+```
+
+Or add it to `~/.codex/config.toml`:
+
+```toml
+[mcp_servers.firemark]
+url = "https://app.tryfiremark.com/mcp"
+```
+
+### Windsurf
+
+Add to Windsurf's `mcp_config.json` (Windsurf Settings, Cascade, MCP Servers, View raw config) and refresh. Windsurf opens the sign-in on first use.
+
+```json
+{
+  "mcpServers": {
+    "firemark": {
+      "serverUrl": "https://app.tryfiremark.com/mcp"
+    }
+  }
+}
+```
+
+### Cline
+
+Add to `cline_mcp_settings.json` (MCP Servers, then Configure):
+
+```json
+{
+  "mcpServers": {
+    "firemark": {
+      "type": "streamableHttp",
+      "url": "https://app.tryfiremark.com/mcp"
+    }
+  }
+}
+```
+
+### Zed
+
+Add to Zed's `settings.json`. Zed asks you to sign in the first time it connects.
+
+```json
+{
+  "context_servers": {
+    "firemark": {
       "url": "https://app.tryfiremark.com/mcp"
     }
   }

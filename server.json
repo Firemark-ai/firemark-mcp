@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.tryfiremark/firemark",
+  "title": "Firemark",
+  "description": "Read how often ChatGPT, Perplexity, Gemini and Google AI name your brand, its rivals and sources.",
+  "version": "1.1.0",
+  "websiteUrl": "https://tryfiremark.com/mcp",
+  "repository": {
+    "url": "https://github.com/Firemark-ai/firemark-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://tryfiremark.com/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.tryfiremark.com/mcp"
+    }
+  ]
+}

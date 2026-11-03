@@ -1,0 +1,19 @@
+{
+  "name": "firemark",
+  "owner": {
+    "name": "Firemark",
+    "email": "support@tenpointlabs.com"
+  },
+  "metadata": {
+    "description": "Firemark's plugin for Claude Code: AI visibility results through Firemark's MCP server."
+  },
+  "plugins": [
+    {
+      "name": "firemark",
+      "source": "./",
+      "description": "Read how often ChatGPT, Perplexity, Gemini and Google AI name your brand, see the gaps and cited sources, and draft prompt and competitor changes.",
+      "category": "productivity",
+      "homepage": "https://tryfiremark.com/mcp"
+    }
+  ]
+}
