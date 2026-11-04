@@ -1,6 +1,6 @@
 # Listing copy
 
-Paste these unchanged into every directory. They leave out the tool count and the permission list, which change as Firemark ships; the README's tool table is the one place those are listed.
+Paste these unchanged into every directory. They leave out the tool count, which changes as Firemark ships; the README's tool table is the one place it is listed. The one changing fact they carry is the $29 entry price: update every listing if it changes.
 
 ## Name
 
@@ -12,17 +12,19 @@ https://app.tryfiremark.com/mcp
 
 ## One line (under 100 characters)
 
-See how often ChatGPT, Perplexity, Gemini and Google AI name your brand, from your AI assistant.
+The AI visibility tracker built to be run from your AI assistant, with MCP on every plan from $29.
 
 ## Short description (under 200 characters)
 
-Firemark tracks how often AI answers name your brand. Read your share of answers, competitor gaps and cited sources, and draft prompt changes, from Cursor, Claude or ChatGPT.
+Track how often ChatGPT, Perplexity, Gemini and Google AI name your brand. Set it up by interview, then ask your assistant about rank, gaps and cited sources, and approve changes.
 
 ## Long description
 
-Firemark is an AI visibility tracker. It asks a fixed set of buyer questions to ChatGPT, Perplexity, Gemini, Google AI Overviews and Google AI Mode on a schedule, and shows which brands each answer names and which sites it cites.
+Firemark is the AI visibility tracker built to be run from your AI assistant. Its MCP server is on every plan from $29, so your assistant can read the brand's rank, competitors, cited sources and ChatGPT fan-out queries, set up the prompt set by interview, and, with your permission, approve and edit your brands.
 
-The Firemark MCP server lets your assistant read those results: how often each engine names your brand out of how many answers, which competitors are named where you are not, which sites the answers cite, and the searches ChatGPT runs before it answers. It can also run the setup interview for a new brand and propose prompt and competitor changes. Nothing takes effect until a member of your account confirms it.
+Firemark asks a fixed set of buyer questions to ChatGPT, Perplexity, Gemini, Google AI Overviews and Google AI Mode on a schedule, and records which brands each answer names and which sites it cites. Every figure comes with its base, such as "155 of 500 answers", so your assistant reports what was measured instead of working out its own percentages. Full answers and sources are kept for 13 months.
+
+Edits are opt-in. Reading results needs no extra permission. Approving drafts and editing brands needs a box you tick when you connect, and proposals that add prompts or competitors wait for a member to confirm them.
 
 Sign-in is OAuth with your Firemark account. There is no API key and nothing to install.
 

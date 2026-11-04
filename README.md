@@ -2,7 +2,9 @@
 
 # Firemark MCP server
 
-**Firemark is an AI visibility tracker.** It asks a fixed set of buyer questions to ChatGPT, Perplexity, Gemini, Google AI Overviews and Google AI Mode on a schedule, and shows which brands each answer names and which sites it cites.
+**Firemark is the AI visibility tracker built to be run from your AI assistant.** Its MCP server is on every plan from $29, so your assistant can read the brand's rank, competitors, cited sources and ChatGPT fan-out queries, set up the prompt set by interview, and, with your permission, approve and edit your brands.
+
+Firemark asks a fixed set of buyer questions to ChatGPT, Perplexity, Gemini, Google AI Overviews and Google AI Mode on a schedule, and shows which brands each answer names and which sites it cites.
 
 This repository connects Firemark to Cursor, Claude, Claude Code, ChatGPT, Gemini CLI, Codex, VS Code, Windsurf, Cline, Zed and other MCP clients. It is a Cursor plugin, a Claude Code plugin marketplace and a Gemini CLI extension in one. Your assistant can then read your results, find where competitors are named and you are not, and draft prompt and competitor changes for you to confirm.
 
@@ -12,7 +14,7 @@ https://app.tryfiremark.com/mcp
 
 That is the only official address. It is a remote MCP server (Streamable HTTP). You sign in with your Firemark account (OAuth 2.1 with PKCE). There is no API key, and nothing runs on your machine.
 
-You need a Firemark account with at least one brand: [tryfiremark.com](https://tryfiremark.com). The MCP server is included on every plan.
+You need a Firemark account with at least one brand: [tryfiremark.com](https://tryfiremark.com). The MCP server is included on every plan, from $29 a month.
 
 ## Connect
 
