@@ -6,7 +6,7 @@
 
 Firemark asks a fixed set of buyer questions to ChatGPT, Perplexity, Gemini, Google AI Overviews and Google AI Mode on a schedule, and shows which brands each answer names and which sites it cites.
 
-This repository connects Firemark to Cursor, Claude, Claude Code, ChatGPT, Gemini CLI, Codex, VS Code, Windsurf, Cline, Zed and other MCP clients. It is a Cursor plugin, a Claude Code plugin marketplace and a Gemini CLI extension in one. The plugin also carries a `firemark` skill that tells the assistant which tool answers which question and how to report Firemark's figures exactly. Your assistant can then read your results, find where competitors are named and you are not, and draft prompt and competitor changes for you to confirm.
+This repository connects Firemark to Cursor, Claude, Claude Code, ChatGPT, Gemini CLI, Codex, VS Code, Windsurf, Cline, Zed and other MCP clients. It is a Cursor plugin, a Claude Code plugin marketplace and a Gemini CLI extension in one. The plugin also carries ten skills: one on using Firemark's tools well, and nine workflows that turn the results into page changes (see [Skills](#skills)). Your assistant can then read your results, find where competitors are named and you are not, and draft prompt and competitor changes for you to confirm.
 
 ```
 https://app.tryfiremark.com/mcp
@@ -158,6 +158,25 @@ Add to Zed's `settings.json`. Zed asks you to sign in the first time it connects
 ### Other MCP clients
 
 Add `https://app.tryfiremark.com/mcp` as a remote (Streamable HTTP) MCP server with OAuth. The client opens Firemark's sign-in, then a consent page that asks what it may do.
+
+## Skills
+
+The plugin carries ten skills. Claude Code and Cursor load them automatically, and each one turns on when your question matches it. In Claude Code you can also run them as slash commands, such as `/firemark:firemark-weekly-check`.
+
+| Skill | What it does |
+|---|---|
+| `firemark` | Which tool answers which question, and how to report Firemark's figures exactly |
+| `firemark-weekly-check` | What changed since the last run and the one change to make this week; can run as a scheduled task |
+| `firemark-page-audit` | Checks one of your pages against the questions it should win, and lists what to add |
+| `firemark-write-the-fix` | Drafts the section a page is missing, in its own tone, with [CHECK] on any fact to confirm; also checks a draft before you publish |
+| `firemark-google-ai-citations` | What Google AI Overviews, AI Mode and Gemini cite instead of you, and what those pages have |
+| `firemark-learn-from-winners` | For questions a competitor wins, the pages AI cites and how they differ from yours |
+| `firemark-fix-ai-facts` | Wrong or vague statements about your brand in AI answers, and the sentence that would fix each |
+| `firemark-mentions-to-links` | Answers that name you without linking to you, and pages ChatGPT found but passed over |
+| `firemark-content-gaps` | ChatGPT searches where none of your pages come back, grouped into page ideas, and what gets cited when you lose |
+| `firemark-comparison-pages` | You against one competitor, question by question, and an outline of the comparison page |
+
+**What the skills do beyond calling Firemark:** some ask the assistant to read web pages: your own pages, your sitemap, and the pages AI answers cite (including competitors' public pages) with the assistant's own web-reading tool. `firemark-write-the-fix` and `firemark-fix-ai-facts` draft copy for you to review. No skill publishes anything, edits your site, or sends data anywhere except Firemark's server. Changes to a brand go through Firemark's own confirmation, as below.
 
 ## Permissions
 

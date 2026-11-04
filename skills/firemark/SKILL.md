@@ -1,6 +1,6 @@
 ---
 name: firemark
-description: Use when the user asks about their brand's AI visibility in Firemark - how often ChatGPT, Perplexity, Gemini, Google AI Overviews or Google AI Mode name the brand, its rank and competitors in AI answers, cited sources, ChatGPT fan-out queries, a weekly check of what changed, setting up a new brand's prompt set, or approving and editing a brand. Covers which Firemark MCP tool to call and how to report its figures accurately.
+description: "Use when the user asks about their brand's AI visibility in Firemark - how often ChatGPT, Perplexity, Gemini, Google AI Overviews or Google AI Mode name the brand, its rank and competitors in AI answers, cited sources, ChatGPT fan-out queries, a weekly check of what changed, setting up a new brand's prompt set, or approving and editing a brand. Covers which Firemark MCP tool to call and how to report its figures accurately."
 ---
 
 # Firemark
