@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1 (2026-11-04)
+
+- Claude plugin manifest: `privacyPolicyUrl` set to https://tryfiremark.com/privacy.
+
 ## 1.2.0 (2026-11-04)
 
 - Nine workflow skills: weekly check, page audit, write the fix, Google AI citations, learn from winners, fix AI facts, mentions to links, content gaps and comparison pages. Each maps to Firemark's tools and keeps its reporting rules.

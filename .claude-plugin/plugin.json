@@ -1,6 +1,6 @@
 {
   "name": "firemark",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Read how often ChatGPT, Perplexity, Gemini and Google AI name your brand, see the gaps and cited sources, and draft prompt and competitor changes. Connects to Firemark's remote MCP server; sign in with your Firemark account when prompted.",
   "author": {
     "name": "Firemark",
@@ -8,6 +8,18 @@
   },
   "homepage": "https://tryfiremark.com/mcp",
   "repository": "https://github.com/Firemark-ai/firemark-mcp",
+  "privacyPolicyUrl": "https://tryfiremark.com/privacy",
   "license": "MIT",
-  "keywords": ["firemark", "ai-visibility", "aeo", "geo", "seo", "chatgpt", "perplexity", "gemini", "ai-overviews", "mcp"]
+  "keywords": [
+    "firemark",
+    "ai-visibility",
+    "aeo",
+    "geo",
+    "seo",
+    "chatgpt",
+    "perplexity",
+    "gemini",
+    "ai-overviews",
+    "mcp"
+  ]
 }
