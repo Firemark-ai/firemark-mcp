@@ -18,6 +18,7 @@ Finds the topics the brand has no page for, and what gets cited when it loses.
 1. Call `get_source_gaps`. Pass on `order_line` and each `line`.
 2. With `get_sources` and `types: true`, sort the sites into competitors' own pages, "best of" or comparison articles, and reviews, forums and other earned sites.
 3. For the first two groups, suggest a page the brand should write. For the third, suggest which sites to get onto, as ideas for the user to judge.
+4. If the brand already lists Digital PR placements, call `get_digital_pr` to show which of them AI answers cite, counted on their own (never as linked).
 
 ## Reporting rules (always)
 

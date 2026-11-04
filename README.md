@@ -211,6 +211,7 @@ No permission lets it start any other run, remove a brand, change a plan, see bi
 | `get_changes` | What changed since a run, in one digest |
 | `get_whats_new` | Product news: what changed in Firemark |
 | `get_export_link` | A link to download a brand's CSV files |
+| `get_digital_pr` | The brand's Digital PR placements (articles on other sites that feature it) and how often AI answers cite them |
 
 **Draft, propose and start a first run**
 
@@ -235,6 +236,7 @@ No permission lets it start any other run, remove a brand, change a plan, see bi
 | `update_prompts` | Adds, removes or edits prompts |
 | `manage_groups` | Creates, renames or deletes prompt groups |
 | `set_site_type` | Sets the type of a cited site |
+| `update_placements` | Adds or removes Digital PR placements, using only the article links you give |
 
 ## Example questions
 

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0 (2026-11-04)
+
+- Firemark MCP 1.4.0 (wave 9) adds two tools: `get_digital_pr` (read) and `update_placements` (approve and edit). The README tool tables, the core skill and `firemark-content-gaps` cover them. 31 tools in all: 22 with read and draft, 31 with approve and edit.
+
 ## 1.2.2 (2026-11-04)
 
 - Skills ask before reading any web page, and use no other tool or service unless the user asks.
