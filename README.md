@@ -6,7 +6,7 @@
 
 Firemark asks a fixed set of buyer questions to ChatGPT, Perplexity, Gemini, Google AI Overviews and Google AI Mode on a schedule, and shows which brands each answer names and which sites it cites.
 
-This repository connects Firemark to Cursor, Claude, Claude Code, ChatGPT, Gemini CLI, Codex, VS Code, Windsurf, Cline, Zed and other MCP clients. It is a Cursor plugin, a Claude Code plugin marketplace and a Gemini CLI extension in one. Your assistant can then read your results, find where competitors are named and you are not, and draft prompt and competitor changes for you to confirm.
+This repository connects Firemark to Cursor, Claude, Claude Code, ChatGPT, Gemini CLI, Codex, VS Code, Windsurf, Cline, Zed and other MCP clients. It is a Cursor plugin, a Claude Code plugin marketplace and a Gemini CLI extension in one. The plugin also carries a `firemark` skill that tells the assistant which tool answers which question and how to report Firemark's figures exactly. Your assistant can then read your results, find where competitors are named and you are not, and draft prompt and competitor changes for you to confirm.
 
 ```
 https://app.tryfiremark.com/mcp
