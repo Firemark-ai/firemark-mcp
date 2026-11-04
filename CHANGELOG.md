@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.2 (2026-11-04)
+
+- Skills ask before reading any web page, and use no other tool or service unless the user asks.
+- `firemark-google-ai-citations`: its description now ties it to Firemark data, so it doesn't trigger on general SEO questions.
+- `firemark-weekly-check`: gives the user the run id instead of asking the assistant to remember it, and notes `get_changes`'s default comparison.
+
 ## 1.2.1 (2026-11-04)
 
 - Claude plugin manifest: `privacyPolicyUrl` set to https://tryfiremark.com/privacy.

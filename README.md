@@ -176,7 +176,7 @@ The plugin carries ten skills. Claude Code and Cursor load them automatically, a
 | `firemark-content-gaps` | ChatGPT searches where none of your pages come back, grouped into page ideas, and what gets cited when you lose |
 | `firemark-comparison-pages` | You against one competitor, question by question, and an outline of the comparison page |
 
-**What the skills do beyond calling Firemark:** some ask the assistant to read web pages: your own pages, your sitemap, and the pages AI answers cite (including competitors' public pages) with the assistant's own web-reading tool. `firemark-write-the-fix` and `firemark-fix-ai-facts` draft copy for you to review. No skill publishes anything, edits your site, or sends data anywhere except Firemark's server. Changes to a brand go through Firemark's own confirmation, as below.
+**What the skills do beyond calling Firemark:** some offer to read web pages: your own pages, your sitemap, and the pages AI answers cite (including competitors' public pages). They ask you first, and read a page with the assistant's own web tool only if you agree; otherwise they ask you to paste it. `firemark-write-the-fix` and `firemark-fix-ai-facts` draft copy for you to review. No skill publishes anything, edits your site, or sends data anywhere except Firemark's server. Changes to a brand go through Firemark's own confirmation, as below.
 
 ## Permissions
 
