@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.0 (2026-11-05)
+
+- Firemark MCP 1.5.0 (wave 12): the reporting rules and the pointers between tools moved out of the tool descriptions into the server's instructions, with a few added. The `firemark` skill, `GEMINI.md` and `rules/firemark.mdc` follow them: run ids come from `get_runs`, don't say why a gap moved, `came_back_not_named` shows co-occurrence and not a cause, the export link goes to the user only, and follow a run with `get_runs`. No tool, argument, scope or data practice changed.
+
 ## 1.3.0 (2026-11-04)
 
 - Firemark MCP 1.4.0 (wave 9) adds two tools: `get_digital_pr` (read) and `update_placements` (approve and edit). The README tool tables, the core skill and `firemark-content-gaps` cover them. 31 tools in all: 22 with read and draft, 31 with approve and edit.
