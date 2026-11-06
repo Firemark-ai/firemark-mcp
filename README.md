@@ -197,11 +197,11 @@ No permission lets it start any other run, remove a brand, change a plan, see bi
 | Tool | What it returns |
 |---|---|
 | `list_brands` | The brands you can read, across your accounts, with each brand's state |
-| `get_overview` | The headline of a brand's latest run: answers naming the brand out of answers collected |
+| `get_overview` | The headline of a brand's latest run, or a period's: answers naming the brand out of answers collected |
 | `get_engines` | Each engine's answers naming the brand, out of its base |
-| `get_competitors` | Each tracked competitor against the brand, by engine, with rank and sentiment |
+| `get_competitors` | Each tracked competitor against the brand, by engine, with rank and sentiment, and how often each is mentioned first |
 | `get_sources` | The sites and pages the answers cite, split by whether they name the brand or a competitor |
-| `list_prompts` | The brand's prompts with one verdict per engine (named and linked, named, linked, absent) |
+| `list_prompts` | The brand's prompts with one verdict per engine (named and linked, named, linked, absent), and the brand's place in each answer (`order`) |
 | `get_prompt` | One prompt in detail: each engine's verdict, position, sentiment, competitors and cited URLs |
 | `get_answer` | One engine's answer to one prompt, word for word |
 | `get_runs` | The run log: dates, status, coverage by engine and answers collected |
@@ -210,7 +210,7 @@ No permission lets it start any other run, remove a brand, change a plan, see bi
 | `get_fanouts` | ChatGPT's fan-out queries, and whether the brand's own pages came back to them |
 | `get_changes` | What changed since a run, in one digest |
 | `get_whats_new` | Product news: what changed in Firemark |
-| `get_export_link` | A link to download a brand's CSV files |
+| `get_export_link` | A link to download a brand's CSV files, or a period's file |
 | `get_digital_pr` | The brand's Digital PR placements (articles on other sites that feature it) and how often AI answers cite them |
 
 **Draft, propose and start a first run**
