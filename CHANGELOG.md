@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.0 (2026-11-06)
+
+- Follows Firemark MCP 1.6.0 (wave 13): a `period` (the app's date range) on nine read tools, and order of mention (`mention_order` on `get_overview`, `get_engines` and `get_competitors`; `order` on `list_prompts`). The `firemark` skill, `GEMINI.md`, `rules/firemark.mdc` and the README tool table cover them. No tool was added or removed, and no scope or data practice changed.
+
 ## 1.4.0 (2026-11-05)
 
 - Firemark MCP 1.5.0 (wave 12): the reporting rules and the pointers between tools moved out of the tool descriptions into the server's instructions, with a few added. The `firemark` skill, `GEMINI.md` and `rules/firemark.mdc` follow them: run ids come from `get_runs`, don't say why a gap moved, `came_back_not_named` shows co-occurrence and not a cause, the export link goes to the user only, and follow a run with `get_runs`. No tool, argument, scope or data practice changed.
