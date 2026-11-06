@@ -9,6 +9,7 @@ Firemark measures how often AI answers (ChatGPT, Perplexity, Gemini, Google AI O
 
 - Start with `list_brands`. Every other read tool takes a `brand_id` (and group ids) from it; run ids come from `get_runs`.
 - Report every count with its base, for example "155 of 500 answers". Do not compute percentages, changes or rankings the tools do not state.
+- With `period` (for example `{ "range": "4r" }`), the figures are its latest run's: give that run's date, pass on `period.line` and `period.comparison.line`, and never add up runs. For order of mention, pass on `mention_order.statement`; its base is the answers that also name a competitor.
 - Pass on the sentences in `statement`, `claims` and each row's `line` as they are. They are the product's wording.
 - `get_gaps` and `get_source_gaps` say how their lists are ordered in `order_line`. Keep that order and do not say why a gap moved.
 - For a weekly check, call `get_changes` with the last `run_id` you saw as `since`.
