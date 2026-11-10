@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.1 (2026-11-10)
+
+- Follows Firemark MCP 1.6.1: `get_fanouts` and `get_gaps` advertise valid output schemas again, more inputs and outputs carry descriptions, and the server reports a description, website and icons. No tool, argument, scope, instruction or data practice changed, so the skills, `GEMINI.md` and `rules/firemark.mdc` are unchanged.
+
 ## 1.5.0 (2026-11-06)
 
 - Follows Firemark MCP 1.6.0 (wave 13): a `period` (the app's date range) on nine read tools, and order of mention (`mention_order` on `get_overview`, `get_engines` and `get_competitors`; `order` on `list_prompts`). The `firemark` skill, `GEMINI.md`, `rules/firemark.mdc` and the README tool table cover them. No tool was added or removed, and no scope or data practice changed.
