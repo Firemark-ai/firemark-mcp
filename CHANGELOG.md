@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.2 (2026-11-13)
+
+- Follows Firemark MCP 1.6.2 and 1.6.3: every output field of every tool now carries a description (1.6.2), and the shared `context` object is advertised once per tool as one described object instead of fourteen field stubs (1.6.3), which keeps `tools/list` under its size limit. No tool, argument, scope, instruction or data practice changed, so the skills, `GEMINI.md` and `rules/firemark.mdc` are unchanged.
+
 ## 1.5.1 (2026-11-10)
 
 - Follows Firemark MCP 1.6.1: `get_fanouts` and `get_gaps` advertise valid output schemas again, more inputs and outputs carry descriptions, and the server reports a description, website and icons. No tool, argument, scope, instruction or data practice changed, so the skills, `GEMINI.md` and `rules/firemark.mdc` are unchanged.
